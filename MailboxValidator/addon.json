@@ -1,0 +1,18 @@
+{
+    "type": "addon",
+    "key": "MailboxValidator",
+    "name": "MailboxValidator Email Validator",
+    "description": "This plugin enables user to block invalid, disposable, free or role-based email from sign up in your forum.",
+    "version": "1.0.0",
+    "mobileFriendly": true,
+    "settingsUrl": "/dashboard/settings/mailboxvalidator",
+    "settingsPermission": "Garden.Settings.Manage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MailboxValidator",
+            "email": "support@mailboxvalidator.com",
+            "homepage": "https://www.mailboxvalidator.com"
+        }
+    ]
+}
