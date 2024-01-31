@@ -23,6 +23,15 @@ echo $this->Form->Errors();
         </li>
         <li>&nbsp;</li>
         <li>
+            <!----><label>Debug Mode</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <?php echo $this->Form->Radio('Plugins.MailboxValidator.DebugModeOption', T('On'), array('id' => 'MailboxValidator-Debug-Mode', 'value' => 'on')); ?>
+            <?php echo $this->Form->Radio('Plugins.MailboxValidator.DebugModeOption', T('Off'), array('id' => 'MailboxValidator-Debug-Mode', 'value' => 'off')); ?>
+            <br/>
+            Enable or disable debug logging of the API response.
+        </li>
+        <li>&nbsp;</li>
+        <li>
             <!----><label>Valid Email Validator</label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <?php echo $this->Form->Radio('Plugins.MailboxValidator.ValidEmailOption', T('On'), array('id' => 'MailboxValidator-Valid-Email', 'value' => 'on')); ?>
