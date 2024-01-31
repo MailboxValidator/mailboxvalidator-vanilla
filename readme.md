@@ -26,4 +26,4 @@ Go to https://www.mailboxvalidator.com/plans#api to sign up for FREE API plan an
 
 ## Copyright
 
-Copyright(C) 2018-2020 by MailboxValidator.com.
+Copyright(C) 2018-2024 by MailboxValidator.com.
